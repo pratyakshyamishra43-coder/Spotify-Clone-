@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Lexend:wght@100..900&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+nav{
+    font-family: Lexend, sans-serif;
+}
