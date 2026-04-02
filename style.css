@@ -41,22 +41,23 @@ nav ul{
 }
 
 .container{
-    min-height : 63vh;
+    min-height : 60vh;
     background-color : black;
     color: white;
     font-family: 'Lexend', sans-serif;
     display: flex;
     margin: 20px auto;
-    width : 70%;
+    width : 75%;
     border-radius : 12px;
     padding : 30px;
     background-image: url("bg.png");
     background-size: cover;
+    height : 63vh;
 }
 
 .bottom{
     position : sticky;
-    height : 100px;
+    height : 110px;
     background-color : black;
     color: white;
     justify-content : center;
@@ -82,4 +83,51 @@ nav ul{
 
 .icons i{
     cursor : pointer;
+}
+
+.songItem{
+    height : 50px;
+    display : flex;
+    background-color: antiquewhite;
+    color: black;
+    margin : 12px 0;
+    justify-content : space-between;
+    align-items : center;
+    border-radius :  34px;
+    white-space: nowrap;
+    font-size: 15px;
+    width : 25vw;
+}
+
+.songItem img{
+    width : 33px;
+    margin: 0 23px 0 12px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin : 0 23px;
+    display: inline;
+}
+
+.songListPlay{
+    display : flex;
+    align-items: center;
+    gap: 10px;
+    font-size : 15px;
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left :0px;
+    white-space: nowrap;
+    font-display: auto;
+    align-items: center;
+    
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in ;
 }
